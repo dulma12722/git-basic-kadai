@@ -1,0 +1,20 @@
+PS C:\Users\yukih\Desktop\Git\git-basic-kadai> cd C:\Users\yukih\Desktop\Git\git-basic-kadai
+PS C:\Users\yukih\Desktop\Git\git-basic-kadai> git init
+Initialized empty Git repository in C:/Users/yukih/Desktop/Git/git-basic-kadai/.git/
+PS C:\Users\yukih\Desktop\Git\git-basic-kadai> cd .\git_challenge\
+PS C:\Users\yukih\Desktop\Git\git-basic-kadai\git_challenge> echo "Hello, world!" >> hello_world.txt
+PS C:\Users\yukih\Desktop\Git\git-basic-kadai\git_challenge> git add .
+PS C:\Users\yukih\Desktop\Git\git-basic-kadai\git_challenge> git commit -m "英　語で追記"
+[main (root-commit) 683f921] 英　語で追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 git_challenge/hello_world.txt
+PS C:\Users\yukih\Desktop\Git\git-basic-kadai\git_challenge> 
+PS C:\Users\yukih\Desktop\Git\git-basic-kadai\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\yukih\Desktop\Git\git-basic-kadai\git_challenge> git add .
+PS C:\Users\yukih\Desktop\Git\git-basic-kadai\git_challenge> git commit -m "日本語で追記"
+[main 1616e0e] 日本語で追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\yukih\Desktop\Git\git-basic-kadai\git_challenge> git log --oneline
+1616e0e (HEAD -> main) 日本語で追記
+683f921 英　語で追記
+PS C:\Users\yukih\Desktop\Git\git-basic-kadai\git_challenge> 
